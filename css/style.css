@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Lora, sans-serif;
+}
+body{
+	background: rgba(66, 74, 90, 1.0);
+	background-size: 110%;
+}	
+.container{
+  margin: 0 auto;
+	width: 80%;
+	background: rgba(83, 86, 92, 1);
+}
+header{
+	width: 100%;
+	height: 100px;
+	color: white;
+}
+nav{
+	width: 100%;
+	height: 200px;
+	display: flex;
+}
+.nav_item{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.img_gaming{
+	width: 30%;
+	height: 80%;
+	border: 3px solid black;
+	font-size: 175%;
+	color: rgba(255, 0, 0, 1.0);
+	background-image: url(../img/gaming_icon.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img_gaming:hover{
+	border-color: darkblue;
+	color: darkblue;
+}
+.img_shkm{
+	width: 30%;
+	height: 80%;
+	border: 3px solid black;
+	font-size: 175%;
+	color: rgba(255, 0, 0, 1.0);
+	background-image: url(../img/shkm_icon.png);
+	background-size: 110%;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img_shkm:hover{
+	border-color: darkblue;
+	color: darkblue;
+}
+main{
+  width: 100%;
+  height: 1600px;
+  display: flex;
+}
+.main_item{
+	width: 100%;
+	height: 100%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	text-indent: 10px;
+}
+.main_item_photo{
+	width: 630px;
+	height: 630px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-evenly;
+	align-self: center;
+	flex-direction: column;
+}
+.main_item_photo:nth-child(3){
+	background-image: url(../img/portfolio.png);
+}
+.main_item_photo:nth-child(4){
+	background-image: url(../img/code.png);
+}
+.main_item_photo:nth-child(7){
+	background-image: url(../img/pink_light.png);
+}
+.main_item_photo:nth-child(8){
+	background-image: url(../img/pink_apc.jpg);
+}
+footer{
+	width: 100%;
+	height: 120px;
+	color: white;
+	background: rgba(57, 63, 85, 1.0);
+	display: flex;
+	flex-direction: column;
+	text-indent: 30px;
+}
+h1{
+	font-size: 70px;
+	text-align: center;
+	align-self: center;
+}
+h2{
+	font-size: 40px;
+	text-align: center;
+	align-self: center;
+	
+}
+ul{
+	list-style: none;
+}
